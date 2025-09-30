@@ -1,0 +1,36 @@
+# CEY Global Connect - Robots.txt
+# International Money Transfer & USDC Services
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: *
+Allow: /
+Crawl-delay: 2
+
+# Disallow admin and private areas (if they exist)
+Disallow: /admin/
+Disallow: /api/private/
+Disallow: /dashboard/private/
+
+# Allow important pages
+Allow: /privacy-policy
+Allow: /terms-of-service
+Allow: /cookie-policy
+
+# Sitemap location
+Sitemap: https://ceyglobalconnect.com/sitemap.xml
