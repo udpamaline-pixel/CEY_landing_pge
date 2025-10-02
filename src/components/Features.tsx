@@ -11,7 +11,7 @@ const Features = () => {
     {
       icon: Shield,
       title: "Commitment to security",
-      description: "Our encryption and fraud prevention efforts help protect your Western Union transfers."
+      description: "Our encryption and fraud prevention efforts help protect your secure transfers."
     },
     {
       icon: DollarSign,

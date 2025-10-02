@@ -56,7 +56,7 @@ const Hero = () => {
           </h2>
 
           <p className="text-lg md:text-xl lg:text-1xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Fund your wallet with bank transfers or crypto deposits, send money instantly, and withdraw anywhere. Backed by Circle wallets and bank-grade security.
+            Fund your wallet with bank transfers or crypto deposits, send money instantly, and withdraw anywhere. 
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
