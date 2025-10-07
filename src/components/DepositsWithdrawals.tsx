@@ -5,7 +5,7 @@ const depositFeatures = [
     {
         icon: Wallet,
         title: "Unique USDC Address",
-        description: "Each User, Agent, and Super Agent gets a unique USDC address powered by Circle Wallets API."
+        description: "Each User, Agent, and Super Agent gets a unique USDC address."
     },
     {
         icon: Shield,
@@ -46,7 +46,8 @@ const DepositsWithdrawals = () => {
                         Seamless USDC Deposits & Withdrawals – Right Inside Your CEY App
                     </h2>
                     <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-                        Fund your wallet in seconds with Circle-powered USDC addresses. Withdraw securely to any external wallet worldwide.                    </p>
+                        Fund your USD wallet with USDC addresses. Withdraw securely to any external wallet worldwide.
+                         </p>
                 </div>
 
                 {/* Main Cards Side by Side */}
@@ -62,7 +63,7 @@ const DepositsWithdrawals = () => {
                                     1. Deposit Instantly with USDC
                                 </h3>
                             </div>
-                            
+
                             <div className="space-y-6">
                                 {depositFeatures.map((feature, index) => (
                                     <div key={index} className="flex items-start space-x-4">
@@ -94,7 +95,7 @@ const DepositsWithdrawals = () => {
                                     2. Withdraw Anywhere
                                 </h3>
                             </div>
-                            
+
                             <div className="space-y-6">
                                 {withdrawalFeatures.map((feature, index) => (
                                     <div key={index} className="flex items-start space-x-4">
